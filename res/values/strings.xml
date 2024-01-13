@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Route About</string>
+    <string name="new_trip_hint">Enter Location</string>
+    <string name="new_trip_button_description">Add Itinerary</string>
+    <string name="action_settings">Settings</string>
+    <string name="plan_trip_menu_btn">Plan Trip</string>
+    <string name="next">Next</string>
+    <string name="done">Go!</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_details">Here is your directions!</string>
+    <string name="back">Back</string>
+    <string name="filters_title">WHAT DO YOU WANT TO DO?</string>
+    <string name="activity">Activity:</string>
+    <string name="activity_hint">shopping, brooklyn bridge, park</string>
+    <string name="distance">Distance:</string>
+    <string name="price">Price:</string>
+    <string name="suggested_title">CHOOSE WHERE TO GO</string>
+    <string name="summary_title">Route This Trip?</string>
+    <string name="start">Start:</string>
+    <string name="destination">Destination:</string>
+    <string name="trip_name">Trip Name:</string>
+    <string name="dist">Dist:</string>
+    <string name="miles">mi</string>
+    <string name="num_out_of">/5</string>
+    <string name="rating">Rating:</string>
+    <string name="quick_recomm_title">Common Activities:</string>
+    <string name="food">Food</string>
+    <string name="tourist">Tourist</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="map_view">Map View</string>
+    <string name="ratingContentDescription">Rating Image</string>
+    <string name="locationImgContentDescription">Location Image</string>
+    <string name="skip">Tap to skip OR swipe to continue</string>
+    <string name="getStarted">Tap anywhere to get started!</string>
+    <string name="ftue_page_1">Please swipe to continue.</string>
+
+    <color name="theme_color">#1EAFDA</color>
+    <color name="theme_color_darker">#126982</color>
+    <color name="gray">#bdbdbd</color>
+
+    <string name="help">Help</string>
+	<string name="sugg_list">List View</string>
+    <string name="credits">Credits</string>
+    <string name="legals">Legals</string>
+    <string name="report">Report</string>
+    <string name="formNameText">Name:</string>
+    <string name="formEmailText">E-mail:</string>
+    <string name="formDetailsText">Let us know details</string>
+    <string name="formHeaderText">Feedback/Issue?</string>
+    <string name="formSubHeaderText">We know nothing is perfect. Let us know if there is any issue.</string>
+    <string name="submit">Submit</string>
+    <string name="developedBy">developed by</string>
+    <string name="contributor_one">Nina Guo</string>
+    <string name="contributor_two">Nate Kemavaha</string>
+    <string name="contributor_three">Jeffrey Good</string>
+    <string name="appVersion">Application Version:</string>
+    
+    <!-- Change your contact emails over here, separated by comma  -->
+    <string name="contact_emails">YOUR_CONTACT_EMAIL_HERE</string>
+    <string name="legals_limit_liability_header">Limitations of Liability and Indemnification</string>
+    <string name="legals_limit_liability">THE DOWNLOADING AND/OR USE OF THE APPLICATION IS ENTIRELY AT YOUR OWN RISK AND IN NO EVENT SHALL WE (DEVELOPERS) BE LIABLE (WHETHER UNDER THE LAW OF CONTRACTS, TORTS OR OTHERWISE) FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, PUNITIVE OR ANY OTHER MONETARY OR OTHER DAMAGES, FEES, FINES, PENALTIES OR LIABILITIES (COLLECTIVELY “DAMAGES”) WHATSOEVER ARISING OUT OF OR RELATING TO THIS APPLICATION. YOUR SOLE AND EXCLUSIVE REMEDY FOR DISSATISFACTION WITH THE APPLICATION IS TO STOP USING THE APPLICATION. YOU AGREE TO DEFEND, INDEMNIFY AND HOLD US (DEVELOPERS), AND ITS OFFICERS, DIRECTORS, EMPLOYEES, REPRESENTATIVES AND AGENTS HARMLESS FROM AND AGAINST ANY CLAIMS, ACTIONS, DEMANDS, LIABILITIES, JUDGMENTS, AND SETTLEMENTS, INCLUDING WITHOUT LIMITATION, REASONABLE LEGAL FEES RESULTING FROM OR ALLEGED TO RESULT FROM YOUR USE OF THIS APPLICATION.</string>
+
+</resources>

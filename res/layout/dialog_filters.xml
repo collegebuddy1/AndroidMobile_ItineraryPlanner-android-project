@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvFiltersTitle"
+		android:background="@drawable/theme_rectangle"
+		android:textColor="@android:color/white"
+		android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+		android:padding="10dp"
+        android:text="@string/filters_title"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvFiltersTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/divider_gray" />
+
+    <TextView
+        android:id="@+id/tvActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivDivider"
+        android:layout_centerHorizontal="true"
+        android:text="@string/activity"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvActivity"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/activity_hint"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ivDivider2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/etActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/divider_gray" />
+
+    
+    <TextView
+        android:id="@+id/tvQuickRecommendTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivDivider2"
+        android:text="@string/quick_recomm_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <LinearLayout
+        android:id="@+id/llrecommender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvQuickRecommendTitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnFood"
+			android:background="@drawable/btn_light"
+			android:padding="8dp"
+			android:minWidth="0dp"
+			android:minHeight="0dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRecommendButtonClick"
+            android:text="@string/food" />
+
+        <Button
+            android:id="@+id/btnTour"
+			android:background="@drawable/btn_light"
+			android:padding="8dp"
+			android:minWidth="0dp"
+			android:minHeight="0dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRecommendButtonClick"
+            android:text="@string/tourist" />
+
+        <Button
+            android:id="@+id/btnNightlife"
+			android:background="@drawable/btn_light"
+			android:padding="8dp"
+			android:minWidth="0dp"
+			android:minHeight="0dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRecommendButtonClick"
+            android:text="@string/nightlife" />
+
+    </LinearLayout>
+
+</RelativeLayout>
